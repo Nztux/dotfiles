@@ -1,0 +1,10 @@
+#!/bin/bash
+
+# notify color
+barb='#1F1F1F'
+barf='#D2D2D2'
+
+# this is font!
+font='-benis-lemon-medium-r-normal--10-110-75-75-m-50-iso8859-1'
+# yeah 
+(echo "  $@" ; sleep 5) | lemonbar -g 135x20+50+40 -B $barb -F $barf -f $font1

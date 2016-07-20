@@ -1,0 +1,1 @@
+rofi -show run -font "glisp 9" -fg "#bbbbbb" -bg "#222222" -hlfg "#eeeeee" -hlbg "#1B4CB5" -lines "5" -sidebar-mode
