@@ -1,17 +1,17 @@
+# kill!
 super + Q
 	pkill swm
-
-super + Return
-	urxvt
-
-super + space
-	dmenu_run
-super + x
+super + q
 	killw $(pfw)
-
 super + Escape
 	kill -USR1 -x sxhkd
 
+# launcher
+super + space
+	dmenu_run
+super + Return
+	urxvt
+# move window
 super + Down
 	wmv 0 10 $(pfw)
 super + Up
@@ -21,6 +21,7 @@ super + Right
 super + Left
 	wmv -10 0 $(pfw)
 
+# window resize
 super + l
 	wrs 10 0 $(pfw)
 super + h
