@@ -29,8 +29,8 @@
 URxvt*termName: rxvt-unicode
 URxvt*geometry: 90x27+160+200
 URxvt*saveLines: 2000 ! default 64
-URxvt*transparent: false
-URxvt*shading: 80
+URxvt*transparent: true
+URxvt*shading: 40
 URxvt*depth: 10
  
 xterm*geometry: 75x24+160+200
@@ -49,7 +49,7 @@ Xft.rgba:   rgb
 ! pixel for external border
 URxvt*externalBorder : 0
 ! pixel for internal border
-URxvt*internalBorder : 15
+URxvt*internalBorder : 10
 ! remove border
 URxvt*borderLess: false
  
@@ -62,7 +62,7 @@ URxvt.scrollTtyKeypress: true
 URxvt.perl-lib: /home/aspire/.urxvt/ext
 URxvt.perl-ext-common:  default,matcher,url-select,clipboard
 URxvt.clipboard.autocopy: true
-URxvt.urlLauncher:  iceweasel
+URxvt.urlLauncher:  firefox
 URxvt.matcher.button:   1
  
 ! Keybind

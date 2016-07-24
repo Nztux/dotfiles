@@ -1,0 +1,55 @@
+# kill!
+super + shift + c
+	pkill swm
+super + q
+	killw $(pfw)
+super + Escape
+	kill -USR1 -x sxhkd
+
+# launcher
+super + space
+	sh bin/dmenu
+super + Return
+	urxvt
+	
+# screenshot
+Print
+	scrot
+
+# make sxhkd reload its configuration files:
+super + Escape
+	pkill -USR1 -x sxhkd
+
+# sound (alsa)
+super + F12
+	amixer set Master 5%+
+super + F11
+        amixer set Master 5%-
+
+# brightness
+super + F6
+	xbacklight -inc 5%+
+super + F5
+        xbacklight -dec 5%-
+
+
+# add window to a group
+super + shift + {1,2,3,4,5}
+    groaw -d all; \
+    groaw -a {1,2,3,4,5}
+
+# toggle groups' visibility
+super + {1,2,3,4,5}
+    groaw -t {1,2,3,4,5}
+    
+# remove window from all groups
+super + Backspace
+    groaw -d all
+	
+# move windows around
+super + {Left,Down,Up,Right}
+      wmv {-20 0, 0 20, 0 -20, 20 0} $(pfw)
+
+# resize windows
+super + alt + {Left,Down,Up,Right}
+      wrs {-20 0, 0 20, 0 -20, 20 0} $(pfw)
