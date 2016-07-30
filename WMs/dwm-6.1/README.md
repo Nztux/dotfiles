@@ -1,6 +1,3 @@
-DWM 6.1 with some patches for personal usage.  
-  
-    
 Patches:
 
 * **Htile**
