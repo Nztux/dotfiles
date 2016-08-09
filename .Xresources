@@ -27,14 +27,12 @@
 *color15:      #bbbdbc
  
 URxvt*termName: rxvt-unicode
-URxvt*geometry: 90x27+160+200
+URxvt*geometry: 90x27+220+200
 URxvt*saveLines: 2000 ! default 64
 URxvt*transparent: true
-URxvt*shading: 40
+URxvt*shading: 10
 URxvt*depth: 10
- 
-xterm*geometry: 75x24+160+200
- 
+
 ! Font Render
  
 Xft.antialias:  1
@@ -49,7 +47,7 @@ Xft.rgba:   rgb
 ! pixel for external border
 URxvt*externalBorder : 0
 ! pixel for internal border
-URxvt*internalBorder : 10
+URxvt*internalBorder : 4
 ! remove border
 URxvt*borderLess: false
  
@@ -59,7 +57,7 @@ URxvt.scrollTryOutput: false
 URxvt.scrollWithBuffer: true
 URxvt.scrollTtyKeypress: true
  
-URxvt.perl-lib: /home/aspire/.urxvt/ext
+URxvt.perl-lib: /home/user/.urxvt/urxvt-perls
 URxvt.perl-ext-common:  default,matcher,url-select,clipboard
 URxvt.clipboard.autocopy: true
 URxvt.urlLauncher:  firefox
@@ -69,9 +67,6 @@ URxvt.matcher.button:   1
 URxvt.iso14755: False
 URxvt.keysym.Shift-Alt-C: perl:clipboard:copy
 URxvt.keysym.Shift-Alt-V: perl:clipboard:paste
- 
-! Font Xft
-xterm*font: -artwiz-drift-medium-r-normal--10-100-75-75-n-60-iso8859-1
 
 ! Font Bitmaps
 URxvt*font: -artwiz-drift-medium-r-normal--10-100-75-75-n-60-iso8859-1
@@ -93,8 +88,3 @@ URxvt*bolditalicFont: -artwiz-drift-medium-r-normal--10-100-75-75-n-60-iso8859-1
 !URxvt*boldFont: -nucleus-marathonmod-medium-r-normal--14-140-75-75-c-70-iso8859-1
 !URxvt*italicFont: -nucleus-marathonmod-medium-r-normal--14-140-75-75-c-70-iso8859-1
 !URxvt*bolditalicFont: -nucleus-marathonmod-medium-r-normal--14-140-75-75-c-70-iso8859-1
- 
-!URxvt*font: -shdw-candy-medium-r-normal--11-80-120-120-m-60-iso10646-1
-!URxvt*boldFont: -shdw-candy-medium-r-normal--11-80-120-120-m-60-iso10646-1
-!URxvt*italicFont: -shdw-candy-medium-r-normal--11-80-120-120-m-60-iso10646-1
-!URxvt*bolditalicFont: -shdw-candy-medium-r-normal--11-80-120-120-m-60-iso10646-1
