@@ -1,90 +1,34 @@
-*background: #1F1F1F
-*foreground: #d2d2d2
+! -- URxvt Settings --
+URxvt.termName: rxvt-unicode
+URxvt.geometry: 134x35+240x400
+URxvt.scrollBar: false
+URxvt.internalBorder: 14
 
-! black
-*color0:       #282a2e
-*color8:       #373b41
-! red
-*color1:       #a85353
-*color9:       #c25f5f
-! green
-*color2:       #98cc5a
-*color10:      #8cd466
-! yellow
-*color3:       #dde662
-*color11:      #e6e251
-! blue
-*color4:       #5e83a1
-*color12:      #93bde1
-! magenta
-*color5:       #8a5a9a
-*color13:      #aa8ab3
-! cyan
-*color6:       #64a49c
-*color14:      #6fccbf
-! white
-*color7:       #c5c5c5
-*color15:      #bbbdbc
+! -- Colors --
+#include "/home/user/colors/smooth"
  
-URxvt*termName: rxvt-unicode
-URxvt*geometry: 90x27+220+200
-URxvt*saveLines: 2000 ! default 64
-URxvt*transparent: true
-URxvt*shading: 10
-URxvt*depth: 10
-
-! Font Render
- 
+! -- General Settings --
 Xft.antialias:  1
 Xft.autohint:   0
 Xft.dpi:    96
 Xft.hinting:    1
 Xft.hintstyle:  hintslight
 Xft.lcdfilter:  lcddefault
-Xft.rgba:   rgb
- 
-! Border
-! pixel for external border
-URxvt*externalBorder : 0
-! pixel for internal border
-URxvt*internalBorder : 4
-! remove border
-URxvt*borderLess: false
- 
-URxvt.scrollstyle:plain
-URxvt.scrollBar: false
-URxvt.scrollTryOutput: false
-URxvt.scrollWithBuffer: true
-URxvt.scrollTtyKeypress: true
- 
-URxvt.perl-lib: /home/user/.urxvt/urxvt-perls
-URxvt.perl-ext-common:  default,matcher,url-select,clipboard
+Xft.rgba: rgb
+
+! -- Perl Extention --
+URxvt.perl-lib: ~/.urxvt/urxvt-perls
+URxvt.perl-ext-common:  default,matcher,clipboard
 URxvt.clipboard.autocopy: true
-URxvt.urlLauncher:  firefox
-URxvt.matcher.button:   1
  
-! Keybind
+! -- Keybind --
 URxvt.iso14755: False
 URxvt.keysym.Shift-Alt-C: perl:clipboard:copy
 URxvt.keysym.Shift-Alt-V: perl:clipboard:paste
 
-! Font Bitmaps
-URxvt*font: -artwiz-drift-medium-r-normal--10-100-75-75-n-60-iso8859-1
-URxvt*boldFont: -artwiz-drift-medium-r-normal--10-100-75-75-n-60-iso8859-1
-URxvt*italicFont: -artwiz-drift-medium-r-normal--10-100-75-75-n-60-iso8859-1
-URxvt*bolditalicFont: -artwiz-drift-medium-r-normal--10-100-75-75-n-60-iso8859-1
- 
-!URxvt*font: -benis-lemon-medium-r-normal--10-110-75-75-m-50-iso8859-1
-!URxvt*boldFont: -benis-lemon-medium-r-normal--10-110-75-75-m-50-iso8859-1
-!URxvt*italicFont: -benis-lemon-medium-r-normal--10-110-75-75-m-50-iso8859-1
-!URxvt*bolditalicFont: -benis-lemon-medium-r-normal--10-110-75-75-m-50-iso8859-1
- 
-!URxvt*font: -gmnbox-gmnterm-medium-r-normal--10-110-75-75-p-50-iso8859-1
-!URxvt*boldFont: -gmnbox-gmnterm-medium-r-normal--10-110-75-75-p-50-iso8859-1
-!URxvt*italicFont: -gmnbox-gmnterm-medium-r-normal--10-110-75-75-p-50-iso8859-1
-!URxvt*bolditalicFont: -gmnbox-gmnterm-medium-r-normal--10-110-75-75-p-50-iso8859-1
- 
-!URxvt*font: -nucleus-marathonmod-medium-r-normal--14-140-75-75-c-70-iso8859-1
-!URxvt*boldFont: -nucleus-marathonmod-medium-r-normal--14-140-75-75-c-70-iso8859-1
-!URxvt*italicFont: -nucleus-marathonmod-medium-r-normal--14-140-75-75-c-70-iso8859-1
-!URxvt*bolditalicFont: -nucleus-marathonmod-medium-r-normal--14-140-75-75-c-70-iso8859-1
+! -- Fonts --
+URxvt*font: -benis-lemon-medium-r-normal--10-110-75-75-m-50-iso8859-1
+URxvt*boldFont: -benis-lemon-medium-r-normal--10-110-75-75-m-50-iso8859-1
+URxvt*italicFont: -benis-lemon-medium-r-normal--10-110-75-75-m-50-iso8859-1
+URxvt*bolditalicFont: -benis-lemon-medium-r-normal--10-110-75-75-m-50-iso8859-1
+
