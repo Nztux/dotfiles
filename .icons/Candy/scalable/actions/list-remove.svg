@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   version="1.0"
+   width="128"
+   height="128"
+   id="svg11300"
+   style="display:inline;enable-background:new">
+  <title
+     id="title2897">Candy Icon Theme</title>
+  <defs
+     id="defs3">
+    <linearGradient
+       id="linearGradient3596">
+      <stop
+         id="stop3598"
+         style="stop-color:#ed817b;stop-opacity:1"
+         offset="0" />
+      <stop
+         id="stop3600"
+         style="stop-color:#cd2b23;stop-opacity:1"
+         offset="1" />
+    </linearGradient>
+    <linearGradient
+       id="linearGradient3612">
+      <stop
+         id="stop3614"
+         style="stop-color:#da5a52;stop-opacity:1"
+         offset="0" />
+      <stop
+         id="stop3616"
+         style="stop-color:#8f2925;stop-opacity:1"
+         offset="1" />
+    </linearGradient>
+    <linearGradient
+       id="linearGradient3626">
+      <stop
+         id="stop3628"
+         style="stop-color:#000000;stop-opacity:0"
+         offset="0" />
+      <stop
+         id="stop3630"
+         style="stop-color:#000000;stop-opacity:1"
+         offset="1" />
+    </linearGradient>
+    <linearGradient
+       id="linearGradient3638">
+      <stop
+         id="stop3640"
+         style="stop-color:#ffffff;stop-opacity:1"
+         offset="0" />
+      <stop
+         id="stop3642"
+         style="stop-color:#ffffff;stop-opacity:0"
+         offset="1" />
+    </linearGradient>
+    <filter
+       x="-0.078545459"
+       y="-0.86400002"
+       width="1.1570909"
+       height="2.7279999"
+       color-interpolation-filters="sRGB"
+       id="filter4193">
+      <feGaussianBlur
+         id="feGaussianBlur4195"
+         stdDeviation="3.6" />
+    </filter>
+    <radialGradient
+       cx="158"
+       cy="42.499996"
+       r="19"
+       fx="158"
+       fy="42.499996"
+       id="radialGradient2920"
+       xlink:href="#linearGradient3638"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(2.7894737,0,0,0.15789474,-373.73685,47.289474)" />
+    <radialGradient
+       cx="67"
+       cy="-2.8653858"
+       r="55"
+       fx="67"
+       fy="-2.8653858"
+       id="radialGradient2923"
+       xlink:href="#linearGradient3638"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(1,0,0,0.47272728,0,43.354546)" />
+    <radialGradient
+       cx="67"
+       cy="-7.0961547"
+       r="55"
+       fx="67"
+       fy="-7.0961547"
+       id="radialGradient2926"
+       xlink:href="#linearGradient3626"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(1,0,0,0.47272728,0,43.354546)" />
+    <linearGradient
+       x1="60"
+       y1="52"
+       x2="60"
+       y2="84"
+       id="linearGradient2929"
+       xlink:href="#linearGradient3596"
+       gradientUnits="userSpaceOnUse" />
+    <linearGradient
+       x1="57"
+       y1="52"
+       x2="57"
+       y2="84"
+       id="linearGradient2931"
+       xlink:href="#linearGradient3612"
+       gradientUnits="userSpaceOnUse" />
+  </defs>
+  <g
+     transform="translate(-3,-4)"
+     id="layer1"
+     style="display:inline">
+    <g
+       id="layer6"
+       style="display:none" />
+    <g
+       transform="translate(0,1)"
+       id="g2982" />
+    <g
+       id="g2968" />
+    <g
+       transform="translate(0,1)"
+       id="g2975" />
+    <g
+       id="g2946" />
+    <rect
+       width="110"
+       height="10"
+       rx="5"
+       ry="5"
+       x="12"
+       y="75"
+       id="rect4089"
+       style="opacity:0.8;fill:#000000;fill-opacity:1;stroke:none;filter:url(#filter4193)" />
+    <g
+       transform="translate(0,1)"
+       id="g3705">
+      <rect
+         width="109"
+         height="31"
+         rx="3"
+         ry="3"
+         x="12.5"
+         y="52.5"
+         id="rect3716"
+         style="fill:url(#linearGradient2929);fill-opacity:1;stroke:url(#linearGradient2931);stroke-width:0.99999994;stroke-opacity:1" />
+      <rect
+         width="110"
+         height="32"
+         rx="3.5"
+         ry="3.5"
+         x="12"
+         y="52"
+         id="rect3803"
+         style="opacity:0.07999998;fill:url(#radialGradient2926);fill-opacity:1;stroke:none" />
+      <rect
+         width="110"
+         height="32"
+         rx="3.5"
+         ry="3.5"
+         x="12"
+         y="52"
+         id="rect3829"
+         style="opacity:0.25;fill:url(#radialGradient2923);fill-opacity:1;stroke:none" />
+      <rect
+         width="106"
+         height="1"
+         x="14"
+         y="53"
+         id="rect3920"
+         style="opacity:0.4;fill:url(#radialGradient2920);fill-opacity:1;stroke:none" />
+    </g>
+    <g
+       id="g3792" />
+  </g>
+</svg>
