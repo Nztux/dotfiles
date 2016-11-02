@@ -1,2 +1,3 @@
-# dut
-this is my rice!
+# dotfiles
+
+Desktop configuration
