@@ -2,10 +2,15 @@
 
 xrdb -merge ~/.Xresources
 
+# font
 xset fp+ ~/.fonts
 xset fp rehash
 
-#nm-applet
+# wifi
+nm-applet &
+
+# volume
+volwheel &
 
 # Wallpaper
 feh --bg-fill ~/Pictures/Wallpaper/multicolor.jpg
